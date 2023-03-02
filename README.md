@@ -36,7 +36,7 @@ El _ultimo_ no se si considerarlo una seccion ya que forma parte de la estructur
 **HTML** me costo bastante entender las divisiones de cajas, pero ahora cada pagina web que veo, lo divido en esas formas para poder entenderlos mejor.
 
 **CSS** la verdad que me encanto y es donde mas tiempo pase buscando alternativas, mi favorita es el :hover, es increible lo que se puede hacer.
-Las _class_ y los _id_ son lo mejor, ya que la estructuras (cajas) se puede dividir en diferentes clases o id, por ende se puede modificar de diferente maneras, como tamaños, colores, formas, etc.
+Las _class_ y los _id_ son lo mejor, ya que la estructuras (cajas) se puede dividir en diferentes clases o id, por ende se puede modificar de diferente maneras, como tamaños, colores, formas, etc. Hacerla _Responsive_ pase como 3 aproximadamente en entender todos los cambios que se pueden hacer y que tengo que hacer, no quise hacer todo con **bootstrap** por que aunque facilite muchas cosas, queria hacer todo de "0".
 
 **Js** sigo estudiando hay varias cosas que no entiendo todavia, por ende solamente escribi unas cuantas lineas de codigo, agregue una estructura de control (if), por si la pagina es utilizada en algunas resoluciones.
 
@@ -52,10 +52,13 @@ Las _class_ y los _id_ son lo mejor, ya que la estructuras (cajas) se puede divi
 - [Google](https://www.google.com/)
 - [GitHub](https://github.com/)
 - [Coolors](https://coolors.co/palettes/trending)
+- [W3schools](https://www.w3schools.com/html/default.asp)
+- [Mozilla](https://developer.mozilla.org/es/docs/Web/HTML)
 
 ---
 
 **Notas**
 
 Buscando soluciones para los diferentes obstaculos que aparecian, me tope con Markdown, y quise explicar el proyecto con mis propias palabras mediante este lenguaje de marcado ligero.
+
 # Tipo-CV
