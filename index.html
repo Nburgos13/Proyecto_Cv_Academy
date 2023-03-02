@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Desarrollo Web</title>
+  </head>
+  <body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1>+NB+</h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a href="#inicio" class="seleccionado">INICIO</a>
+                </li>
+                <li>
+                  <a href="#sobremi">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#servicios">SERVICIOS</a>
+                </li>
+                <li>
+                  <a href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li>
+                  <a href="#contacto">CONTACTO</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- iconos del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+            <!-- iconos de las redes sociales -->
+            <div class="redes">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">BIENVENIDOS</p>
+          <h2>Soy <span>Nicolas</span>, Desarrolador Web</h2>
+          <p class="descripcion">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+            eius nemo sunt laboriosam! Tenetur consequatur amet nihil soluta
+            neque quis cum laborum.
+          </p>
+          <a href="#portfolio">Ir a Portafolio</a>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="img/FotoPerfilFeliz.jpg" alt="" />
+        <!--segunda foto -->
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, soy <span>Nicolas Burgos</span></h2>
+        <h3>Desarrollador Web</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, optio
+          ex perferendis vel quae quod reprehenderit numquam dicta obcaecati
+          veritatis dolores provident perspiciatis.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint iste
+          reiciendis, nobis aspernatur possimus cumque sit quas!
+        </p>
+        <a href="#">Descargas CV</a>
+      </div>
+    </section>
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+      <h3 class="titulo-seccion">Mis Servicios</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-sharp fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graficos</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consequuntur, quam. Ex, labore doloribus. Debitis iste vitae, est
+            hic.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-sharp fa-solid fa-code"></i></span>
+          <h4>Desarrollo de Aplicaciones</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>UX</li>
+            <li>UI</li>
+            <li>Mantenimiento</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consequuntur, quam. Ex, labore doloribus. Debitis iste vitae, est
+            hic.
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-sharp fa-solid fa-code"></i></span>
+          <h4>Desarrollo de Software</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Diseño</li>
+            <li>Desarrollo</li>
+            <li>Integracion</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consequuntur, quam. Ex, labore doloribus. Debitis iste vitae, est
+            hic.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+      <h3 class="titulo-seccion">Mis Proyectos</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Gatitos.jpg" alt="" />
+          <div class="info">
+            <h4>Pagina Web encargada de contactar con futuros adoptantes</h4>
+            <p>Adopcion de Gatitos</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Perritos.jpg" alt="" />
+          <div class="info">
+            <h4>Pagina Web encargada de contactar con futuros adoptantes</h4>
+            <p>Adopcion de Perritos</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Deportista.jpg" alt="" />
+          <div class="info">
+            <h4>
+              Venta de elementos deportivos para personas con capacidades
+              diferentes
+            </h4>
+            <p>Elementos Deportivos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contactanos Ahora</h3>
+      <div class="contenedor-form">
+        <form action="">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Nombre Completo"
+              class="input-mitad"
+            />
+            <input
+              type="text"
+              placeholder="Direccion de Email"
+              class="input-mitad"
+            />
+          </div>
+          <div class="fila">
+            <input type="text" placeholder="Tema..." class="input-full" />
+          </div>
+          <div class="fila">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Tu Mensaje..."
+              class="input-full"
+            ></textarea>
+          </div>
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
+        </form>
+      </div>
+    </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+      <p>Todos los derechos reservados - 2023</p>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
